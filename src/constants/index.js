@@ -80,14 +80,6 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
 ];
 
 const experiences = [
