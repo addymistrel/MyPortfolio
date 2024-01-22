@@ -25,6 +25,7 @@ import {
   tripguide,
   threejs,
   irrss,
+  homeify,
 } from "../assets";
 
 export const navLinks = [
@@ -214,25 +215,29 @@ const projects = [
     source_code_link: "https://github.com/Abhinav-2004/SIH-React-Railways.git",
   },
   {
-    name: "Volume Control",
+    name: "Homeify",
     description:
-      "A Python Based Program which enables the user to Control Volume of their System with the help of Hand Gestures.",
+      "A new Era clone of Pepperfry.com website using tech like React JS and all other MERN techs.",
     tags: [
       {
-        name: "Python",
+        name: "React-JS",
         color: "blue-text-gradient",
       },
       {
-        name: "open-CV",
+        name: "Express-JS",
         color: "green-text-gradient",
       },
       {
-        name: "mediapipe",
+        name: "mongo",
         color: "pink-text-gradient",
       },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/addymistrel/Volume-Control",
+    image: homeify,
+    source_code_link: "https://github.com/addymistrel/Homeify.git",
   },
   {
     name: "i-Clean",
