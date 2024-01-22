@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import grabway from "./grabway.png";
 import irrss from "./irrss.png";
+import homeify from "./homeify.png";
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   grabway,
-  irrss
+  irrss,
+  homeify
 };
