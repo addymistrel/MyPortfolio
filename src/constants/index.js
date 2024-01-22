@@ -1,4 +1,5 @@
 import {
+  grabway,
   mobile,
   backend,
   creator,
@@ -23,6 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  irrss,
 } from "../assets";
 
 export const navLinks = [
@@ -175,37 +177,41 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongo-db",
         color: "pink-text-gradient",
       },
       {
-        name: "mapbox",
+        name: "maps",
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/addymistrel/i-Clean-Final",
+    image: grabway,
+    source_code_link: "https://github.com/addymistrel/GrabWay.git",
   },
   {
-    name: "Notes & Assignments",
+    name: "Railway Rakes Scheduler",
     description:
-      "A Full CSS Based Website to maintain all the notes and assignments at one place for easy access whenever required.",
+      "Machine Learning based web app for efficient scheduling of railway rakes with minimal clicks",
     tags: [
       {
-        name: "HTML",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "ML",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongo-db",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/addymistrel/NotesAndAssignments.github.io",
+    image: irrss,
+    source_code_link: "https://github.com/Abhinav-2004/SIH-React-Railways.git",
   },
   {
     name: "Volume Control",
