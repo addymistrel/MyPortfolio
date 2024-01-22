@@ -162,6 +162,73 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Grabway",
+    description:
+      "Ride-sharing webapp connecting users and drivers with Google Maps integration, optimizing commuting for efficient travel.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mapbox",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/addymistrel/i-Clean-Final",
+  },
+  {
+    name: "Notes & Assignments",
+    description:
+      "A Full CSS Based Website to maintain all the notes and assignments at one place for easy access whenever required.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/addymistrel/NotesAndAssignments.github.io",
+  },
+  {
+    name: "Volume Control",
+    description:
+      "A Python Based Program which enables the user to Control Volume of their System with the help of Hand Gestures.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "open-CV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mediapipe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/addymistrel/Volume-Control",
+  },
+  {
     name: "i-Clean",
     description:
       "A Full Fleshed Backend embedded Web App for Efficient management and tracking of Garbages in cities.",
@@ -227,7 +294,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/addymistrel/Volume-Control",
-  },
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
