@@ -32,6 +32,14 @@ import tripguide from "./tripguide.png";
 import grabway from "./grabway.png";
 import irrss from "./irrss.png";
 import homeify from "./homeify.png";
+import nextjs from "./tech/nextjs.png";
+import net from "./tech/net.png";
+import python from "./tech/python.png";
+import sqlserver from "./tech/sqlserver.png";
+import db from "./tech/db.png";
+import llm from "./tech/llm.png";
+import quantivo from "./quantivo.png";
+import mxcard from "./mxcard.png";
 
 export {
   logo,
@@ -64,5 +72,13 @@ export {
   tripguide,
   grabway,
   irrss,
-  homeify
+  homeify,
+  nextjs,
+  net,
+  python,
+  sqlserver,
+  db,
+  llm,
+  quantivo,
+  mxcard,
 };

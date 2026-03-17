@@ -26,6 +26,14 @@ import {
   threejs,
   irrss,
   homeify,
+  nextjs,
+  net,
+  python,
+  sqlserver,
+  db,
+  llm,
+  quantivo,
+  mxcard,
 } from "../assets";
 
 export const navLinks = [
@@ -45,93 +53,96 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer (MERN)",
     icon: web,
   },
   {
-    title: "Competitive Programmer",
+    title: "Backend Developer (.NET)",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Agentic AI & Automation Developer",
     icon: backend,
   },
   {
-    title: "Python Programmer",
+    title: "Database Optimization (SQL)",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "SQL Server",
+    icon: sqlserver,
+  },
+  {
+    name: ".NET Core (C#)",
+    icon: net,
   },
 ];
 
 const experiences = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer (MERN)",
     company_name: "",
     icon: starbucks,
     iconBg: "#383E56",
     date: "",
     points: [
+      "Experienced in Agile environments, delivering end-to-end solutions from concept to deployment and maintenance at Mindfire Solutions.",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participated in various Hacakathons Including Nirmaan & Smart Odisha Hackathon.",
     ],
   },
   {
-    title: "Competitive Programmer",
+    title: "Backend Developer (.NET)",
     company_name: "",
-    icon: tesla,
+    icon: net,
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "Solved Various Tricky and Heart Breathing Programming Questions.",
-      "Good Knowledge on Data Structures.",
-      "Secured global rank of #294 in contest Starters 80 Division 2 (Rated) on CODECHEF.",
-      "5-star Gold Badge in Problem Solving on Hackerrank.",
+      "Delivered scalable, production-ready applications at Mindfire Solutions across the complete development lifecycle.",
+      "Built and showcased multiple full-stack personal projects with real-world use cases and modern tech stacks.",
+      "Engineered efficient RESTful APIs with optimized performance, structured architecture, and seamless integrations.",
     ],
   },
   {
-    title: "Backend Developer",
+    title: "Agentic AI & Automation Developer",
     company_name: "",
-    icon: shopify,
+    icon: llm,
     iconBg: "#383E56",
     date: "",
     points: [
-      "Developing Backend for websites using Firebase.",
-      "Implemented Backend along with Google Map",
+      "Integrated LLMs into applications for intelligent features, including contextual responses and automation workflows.",
+      "Built a terminal-based AI agent enabling task automation and dynamic interactions using LLM-driven logic.",
     ],
   },
   {
-    title: "Python Programmer",
+    title: "Database Optimization (SQL)",
     company_name: "",
-    icon: meta,
+    icon: db,
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "Completed Internships on Python based Course in Syllogestik Systems.",
-      "Developed Open CV projects to control Sound Volumes Through Hand Gestures.",
-      "Developed a ML Prediction Model using Python.",
+      "Optimized SQL Server queries using indexing strategies (clustered/non-clustered) to improve performance and reduce execution time.",
+      "Designed and implemented efficient stored procedures (SPs) for scalable data operations and business logic handling.",
+      "Applied query tuning, normalization, and execution plan analysis to enhance database performance and ensure data integrity.",
     ],
   },
 ];
@@ -164,6 +175,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Quantivo",
+    description:
+      "Realtime Stock Market Price and News app with built in customized alert and watchlist features.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tradingview-apis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongo-db",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quantivo,
+    source_code_link: "https://github.com/addymistrel/quantivo.git",
+  },
+  {
+    name: "MX-CARD Agent",
+    description:
+      "A terminal-based AI agent that automates tasks and provides dynamic interactions using LLM-driven logic.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "llm",
+        color: "green-text-gradient",
+      },
+      {
+        name: "agentic-ai",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mxcard,
+    source_code_link: "https://github.com/addymistrel/quantivo.git",
+  },
   {
     name: "Grabway",
     description:
@@ -283,7 +336,8 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/addymistrel/NotesAndAssignments.github.io",
+    source_code_link:
+      "https://github.com/addymistrel/NotesAndAssignments.github.io",
   },
   {
     name: "Volume Control",
@@ -305,7 +359,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/addymistrel/Volume-Control",
-  }
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
